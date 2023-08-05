@@ -7,6 +7,7 @@ This sample project shows how to use ESP32 to drive an ePaper display. It contai
 
 
 Videos can be watched below:
+
 [7.5寸电子墨水屏桌面台历，万年历，天气站](https://www.bilibili.com/video/BV1Rk4y1u74R)
 
 [测量ESP32驱动墨水屏的工作电流和待机电流](https://www.bilibili.com/video/BV1n8411d7mx)
