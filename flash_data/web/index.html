@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>设置WIFI</title>
+    <!-- for-mobile-apps -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+    <!-- //for-mobile-apps -->
+    <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+
+</head>
+<body>
+    <!-- main -->
+    <div class="main">
+        <h1>
+            设置WIFI
+        </h1>
+        <form action="/api/wifi/config" method="post">
+            <input type="text" name="ssid" value="ssid" onFocus="this.value = '';" onBlur="if (this.value == '') {this.value = 'ssid';}"
+                   required="">
+            <input type="password" name="passwd" value="password" onFocus="this.value = '';" onBlur="if (this.value == '') {this.value = '';}"
+                   required="">
+            <input type="submit" value="提交">
+        </form>
+    </div>
+    <!-- //main -->
+</body>
+</html>
+
+<!-- <html>
+    <head>
+        <title>WIFI Config by ysl</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <style type="text/css">
+      .input{display: block; margin-top: 10px;}
+      .input span{width: 100px; float: left; float: left; height: 36px; line-height: 36px;}
+      .input input{height: 30px;width: 200px;}
+      .btn{width: 120px; height: 35px; background-color: #000000; border:0px; color:#ffffff; margin-top:15px; margin-left:100px;}
+    </style>
+    <body>
+        <form method="POST" action="configwifi">
+            <label class="input"><span>WiFi SSID</span>
+                <input type="text" name="ssid" value="">
+            </label>
+            <label class="input">
+                <span>WiFi PASS</span><input type="text"  name="pass">
+            </label>
+            <input class="btn" type="submit" name="submit" value="Submie"> 
+            <p><span> Nearby wifi:</P>
+            <P>  WiFi.SSID(i)  </P>
+        </form>
+    </body>
+</html> -->
+
+<!-- <html>
+    <body>
+        <font size="10">Successd,wifi connecting...<br />Please close this page manually.</font>
+    </body>
+</html> -->
